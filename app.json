@@ -1,0 +1,19 @@
+{
+  "name": "ANITA-XMD MINI",
+  "description": "WhatsApp MD bot (Baileys)",
+  "repository": "",
+  "keywords": ["whatsapp", "baileys", "bot", "node"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "AnitaXmd session string (e.g. AnitaXmd!<base64_compressed_data>)",
+      "required": false,
+      "value": ""
+    }
+  }
+}
+
